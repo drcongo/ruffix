@@ -12,7 +12,16 @@ Note, this plugin does *not* install or maintain Ruff for you, you need to [do t
 
 ## Usage
 
-Open a Python file, open the command palette, type `ruffix` and hit return, or hit `super-option-r`.
+Open a Python file, open the command palette, type `ruffix` and hit return. To add key bindings, you can use...
+
+```
+[
+  {
+    "keys": ["super+option+r"],
+    "command": "ruffix",
+  }
+]
+```
 
 
 ## Disclaimer
