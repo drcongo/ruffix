@@ -1,0 +1,3 @@
+[
+  { "caption": "Ruff fix: Use Ruff to fix the current file", "command": "ruffix" },
+]
